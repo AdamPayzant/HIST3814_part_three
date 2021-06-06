@@ -7,10 +7,13 @@ Following the "Going Further Sequence"
 
 ## Notes
 
-I did have to add a .gitignore to this.
-I know you said you wanted everything, but nothing critical is being ignored as it's workspace configs, the open refine binary, and node modules.
+* I did have to add a .gitignore to this.
+I know you said you wanted everything, but nothing critical is being ignored as it's workspace configs, the open refine binary, etc
+* The name of the directory containing the work can be found at the top of each section
 
 ## Open Refine
+
+`./OpenRefine`
 
 Though I think I did the regex tutorial correctly, I still opted to download the premade file just in case I did something wrong that I missed.
 
@@ -24,7 +27,9 @@ Going through the recipients, I'm even more confident the data is precleaned, as
 
 I think I roughly know what's going on under the hood from my ML classes, but it's really interesting to see it being used for not outright CS-y things.
 
-## Cleaning and Manipulating Data with R
+## Cleaning and Manipulating Data with R 
+
+`./Data_In_R`
 
 As an opening aside, I didn't realize R packages had to be built from source.
 Wow they take a while.
@@ -48,9 +53,25 @@ That's all I've done for now, but I do want to come back to this.
 
 ## Topic Modeling in R
 
+`./Topic_Model_R`
+
+Gah, I'm having some annoying issues with using packages for this one.
+I read through the tutorial so I know how it should work and it seems quite interesting, but I want to get other tasks done before I go too far down this debug rabbit hole.
+
 ## Network Analysis in Python
 
+`./Network_Analysis_Python`
+
+So to compare the centrality with the degrees, I initially tried to convert the centrality to a dataframe in the same format as the degrees.
+Pandas is not my strong suit however so I inevitably ran into issues.
+I eventually just gave up and printed the centrality sorted by value (instead of the standard key).
+Through this you can notice that while Ashbel Smith has a higher degree, Anson Jones has a higher centrality.
+After doing this, I then read the next step part of that tutorial  (I really need to be better about following directions for these tutorials).
+However you do it, if I'm understanding it correctly, it means Smith was sending more letters directly while Jones had the larger network.
+
 ## Webmapping with Leaflet
+
+`./Leaflet`
 
 Oh boy, web stuff.
 Last semester when I was applying to jobs in my field for when I graduate, I had one rule: "anything but web".
