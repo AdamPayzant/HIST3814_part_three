@@ -56,6 +56,7 @@ That's all I've done for now, but I do want to come back to this.
 `./Topic_Model_R`
 
 Gah, I'm having some annoying issues with using packages for this one.
+It's some g++ compilation error, my guess is it's a Linux issue.
 I read through the tutorial so I know how it should work and it seems quite interesting, but I want to get other tasks done before I go too far down this debug rabbit hole.
 
 ## Network Analysis in Python
